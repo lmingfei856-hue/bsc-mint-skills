@@ -1,0 +1,5 @@
+name: "bsc-free-claim"
+title: "BSC 免费领"
+description: "免费 mint / 免费领币的执行流程：先链上核对免费资格与价格严格为 0，再走官方 baw contract-call 预览，预演干净才执行，核对收据与余额后报告交易哈希。只做免费领，花钱的一律不走这套。"
+category: "Work and knowledge"
+include_in_prompt: true

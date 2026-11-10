@@ -1,0 +1,5 @@
+name: "bsc-wallet-ops"
+title: "BSC 多钱包管理"
+description: "币安 Agentic Wallet 多钱包的操作规则：按编号管理钱包会话，默认只读，任何 Mint / 转账 / 授权 / 签名都要先预览再取得该笔确认，绝不输出任何凭证。"
+category: "Work and knowledge"
+include_in_prompt: true

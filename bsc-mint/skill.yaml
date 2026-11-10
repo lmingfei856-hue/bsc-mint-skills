@@ -1,0 +1,5 @@
+name: "bsc-mint"
+title: "BSC Mint 预检"
+description: "输入一个铸造站网址或合约地址，自动识别 mint 合约、价格、钱包资格、剩余额度和开放状态，匹配历史经验库，跑风险检查和静态交易模拟，输出中文预检报告。"
+category: "Work and knowledge"
+include_in_prompt: true
