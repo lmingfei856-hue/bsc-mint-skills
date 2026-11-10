@@ -68,3 +68,7 @@ bash tests/run_suite.sh   # 全量 6 用例回归，约 7–8 分钟
 ```
 
 全程只读：只发 eth_getCode / eth_call / eth_getBalance，不签名、不授权、不付款、不发交易。
+
+## 复核（新仓库位置重跑）
+
+2026-11-11 约 03:05–03:12，在 `bsc-mint-skills` 仓库里把同一套件完整重跑了一遍，6/6 结论与上表完全一致（BABYDOGE / AKITA / BROCCOLI / BROCCOLI CA 已铸满、KOMA 开放中 0.002 BNB/份、Neiro CA 已开盘代币），新输出见 `tests/run-*.txt` 与 `tests/suite.log`。
